@@ -163,7 +163,7 @@
                 </li>	
 
 				<li id="showform2" class="col-md-2 col-xs-2" style="padding-left:0" onclick="type_Fleet()">
-                <a href="javascript:void(0)"  class="cvs" title="Submit your Vehicle">
+                <a href="javascript:void(0)"  class="cvs" title="">
                     <span class="icon-cv icon_vehicles-colors cvs-bg"><span></span></span>
 
                     
