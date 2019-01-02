@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>:: Dashboard ::</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.js"></script>
+        <style>
+		
+		
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.sidenav a {
+    padding: 8px 0px 8px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+	text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+            .card {
+                 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            }
+        
+        .container {
+            width: 100% !important;
+        }
+        .table_head{
+            text-align: center;
+            padding: 5px;
+            font-size: 15px;
+            font-weight: 600;
+            background: #607D8B;
+            color: #fff;
+        }
+        th,td{
+            padding: 5px;
+		text-align: center;
+        }
+        tr{
+            border-top: 1px solid #bfbebe;
+        }
+        .centertable2 th{
+            font-size:20px;
+        }
+       
+        .righttable td.worst{
+            border-right: 1px solid #b5b5b5;
+            background:#fd000047;
+			    padding: 5px 0;
+        }
+        .righttable td.best{
+            border-left: 1px solid #b5b5b5;
+            background:#49ef4940;
+			    padding: 5px 0;
+        }
+        .worsthead{
+            background: #F44336;
+            color: white;
+        }
+        .besthead{
+            background:#4CAF50;
+            color: white;
+        }
+        header{
+            height: 40px;
+            background: #607D8B;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            padding: 8px;
+        }
+		.blinking{
+    animation:blinkingText 0.6s infinite;
+}
+@keyframes blinkingText{
+    0%{        box-shadow: none;    }
+    
+    50%{     box-shadow: 0 3px 6px #4CAF50, 0 3px 6px #4CAF50;   }
+    
+    100%{   box-shadow: none;   }
+}
+.today{
+font-size:18px;
+padding:8px 0px; 
+}
+        </style>
+
+
+    </head>
+    <body>
+	
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a class="link" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);" href="http://es.rcktechiees.com/tnrs.html">Transcredit</a>
+  <a class="link" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);" href="http://es.rcktechiees.com">AutoBuy</a>
+</div>
+
+<header>
+  <span style="font-size:26px;cursor:pointer;margin-left: 20px;float:left;margin-top: -5px;" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+
+DASHBOARD
+</header>
+<div class="container" ng-app="dashboard" ng-controller="crm" ng-init="load()">
+       <div class="row" style="margin-top: 20px;">
+ <div class="col-xs-12">
+            <div class="col-xs-4">
+                    <div class="card">
+                    <div class="table_head">This Month</div>
+                    <table style="width: 100%">
+                        <thead>
+                            <tr>
+                                <th>Leads</th>
+                                <th> Called </th>
+                                <th>Waiting for Call</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td ng-bind="month_lead"></td>
+                                <td ng-bind="month_called">  </td>
+                                <td ng-bind="waiting_call">  </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td ng-bind="call_pers"> </td>
+                                <td ng-bind="wait_pers"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+           <div class="card" style="margin-top:20px">
+               <div class="table_head">MTD Performance</div>
+               <table style="width: 100%">
+                   
+                   <tbody>
+                       <tr>
+                           <td>0-30 mins</td>
+                           <td ng-bind="one"></td>
+                           <td ng-bind="pers_one"></td>
+                       </tr>
+                       <tr>
+                           <td>31-60 mins</td>
+                           <td ng-bind="two"></td>
+                           <td ng-bind="pers_two"></td>
+                       </tr>
+                       <tr>
+                           <td>61-90 mins</td>
+                           <td ng-bind="thrd"></td>
+                           <td ng-bind="pers_thrd"></td>
+                       </tr>
+                       <tr>
+                           <td>90-120 mins</td>
+                           <td ng-bind="four"></td>
+                           <td ng-bind="pers_four"></td>
+                       </tr>
+                       <tr>
+                           <td>121-180 mins</td>
+                           <td ng-bind="five">639</td>
+                           <td ng-bind="pers_five"></td>
+                       </tr>
+                       <tr>
+                           <td>181-240 mins</td>
+                           <td ng-bind="six"></td>
+                           <td ng-bind="pers_six"></td>
+                       </tr>
+                       <tr>
+                           <td>Above 240</td>
+                           <td ng-bind="sev"></td>
+                           <td ng-bind="pers_sev"></td>
+                       </tr>
+                       <tr>
+                           <td>TOTAL</td>
+                           <td ng-bind="tot"></td>
+                           <td>100%</td>
+                       </tr>
+                       
+                   </tbody>
+               </table>
+           </div>         
+ </div>
+ 
+<div class="col-xs-4">    
+	<div class="card centertable2" id="today_card">
+               <div class="table_head" style="background: #4CAF50;font-size:25px;padding:6px">Today's</div>
+               <table style="width: 100%">
+                   <thead>
+                       <tr>
+                           <th>Leads</th>
+                           <th> Called </th>
+                           <th>Auto Schedule</th>
+                       </tr>
+                   </thead>
+                   
+                   <tbody>
+                       <tr>
+                           <td class="today" ng-bind="today_lead"></td>
+                           <td class="today" ng-bind="called_lead"> </td>
+                           <td class="today" ng-bind="to_do">  </td>
+                       </tr>
+                      
+                   </tbody>
+               </table>
+           </div>
+
+               <div class="card"  style="margin-top:20px;">
+                   <div class="table_head">This Month</div>
+                   <table style="width: 100%">
+                       <thead>
+                           <tr>
+                               <th>Highest</th>
+                               <th> Low </th>
+                               <th>Average</th>
+                           </tr>
+                       </thead>
+                       
+                       <tbody>
+                           <tr>
+                               <td ng-bind="higest"></td>
+                               <td ng-bind="low">  </td>
+                               <td ng-bind="avg">  </td>
+                           </tr>
+                           <tr style="display:none">
+                               <td>30%</td>
+                               <td> 10% </td>
+                               <td></td>
+                           </tr>
+                       </tbody>
+                   </table>
+               </div>
+
+      
+</div>
+   
+
+<div class="col-xs-4">
+     <div class="card righttable" style="width:100%;display: flex;">
+               <table style="width: 50%">
+                   <thead>
+                       <tr>
+                           <th class="worsthead" colspan="2">Worst Performance</th>
+                        </tr>
+                   </thead>
+                   
+                   <tbody>
+                       <tr ng-repeat="lead in worst | limitTo:18">
+					   
+                           <td class="worst">{{lead.leadid}}</td>
+						     <td ng-if="lead.hr>24" class="worst">{{lead.time}} </td>
+							 <td ng-if="lead.hr<24 && lead.min<60 && lead.sec>60" class="worst">{{lead.min}} Mins</td>
+							 <td ng-if="lead.hr<24 && lead.min<60 && lead.sec<60" class="worst">{{lead.sec}} Secs</td>
+						
+                       </tr>
+                  
+				  </tbody>
+               </table>
+			   
+			   
+			   <table style="width: 50%">
+                   <thead>
+                       <tr>
+                           <th class="besthead" colspan="2">Best Performance</th>
+                        </tr>
+                   </thead>
+                   
+                   <tbody>
+                       <tr ng-repeat="lead in best | limitTo:18">
+					   
+                           <td  class="best">{{lead.leadid}}</td>
+						   <td ng-if="lead.hr>24" class="best">{{lead.time}} </td>
+							 <td ng-if="lead.hr<24 && lead.min<60 && lead.sec>60" class="best">{{lead.min}} Mins</td>
+							 <td ng-if="lead.hr<24 && lead.min<60 && lead.sec<60" class="best">{{lead.sec}} Secs</td>
+                       </tr>
+                  
+				  </tbody>
+               </table>
+			   
+           </div>
+       
+
+
+</div>
+
+  </div>
+</div>
+
+</div>
+    
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script>
+				function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+		</script>
+		
+		<script>
+		var app=angular.module("dashboard",[]);
+		app.controller("crm",function($scope,$http,$timeout,$filter,$interval){
+		
+		$interval(function(){
+		$scope.load();
+		},5000);
+		
+
+	$scope.load=function(){	
+	 $scope.arr=[];
+	$scope.sectotal=0;
+	var one=0,two=0,thrd=0,four=0,five=0,six=0,sev=0;
+	   var d =new Date();
+	   var fst_date=d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2) +"-" +  "01";
+       var date =d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2) +"-" +  ("0" + d.getDate()).slice(-2);
+
+          var data_todo = {
+           query:"select count(distinct(ld))today_todo  from wpy  where  cd='"+date+"'  and md<>'1900-01-01' and  st='New Lead' and sno='1'",
+           fetch_size: "10000"
+         };
+         $http({ 
+             method: 'POST',
+             url: 'http://es.jetinfo.us/_xpack/sql',
+             headers: {
+                 'Content-Type': 'application/json',
+                 'Accept': 'application/json'
+              },
+             data: JSON.stringify(data_todo)
+              }).then(function (response) {
+				$scope.to_do=response.data.rows[0][0];
+                    }, function (error) {
+                        console.log(error);
+                    })
+					
+	   var datass9 = {
+             query: "select count(distinct(ld)) from wpy where  cd='"+date+"'",
+             fetch_size: "10000"
+         };
+         $http({
+             method: 'POST',
+             url: 'http://es.jetinfo.us/_xpack/sql',
+             headers: {
+                 'Content-Type': 'application/json',
+                 'Accept': 'application/json'
+             },
+             data: JSON.stringify(datass9)
+         })
+                    .then(function (response) {
+					//console.log(response);
+				    $scope.today_lead=response.data.rows[0][0];
+                    }, function (error) {
+                        console.log(error);
+                    });
+					
+					
+	    var datass2 = {
+        query: "select count(distinct(ld))called from wpy where cd='"+date+"' and sno='1'"
+         };
+         $http({
+             method: 'POST',
+             url: 'http://es.jetinfo.us/_xpack/sql',
+             headers: {
+                 'Content-Type': 'application/json',
+                 'Accept': 'application/json'
+             },
+             data: JSON.stringify(datass2)
+         })
+                    .then(function (response) {
+					//console.log(response);
+			     	$scope.called_lead=response.data.rows[0][0];
+                    }, function (error) {
+                        console.log(error);
+                    })
+				
+		var data_range = {
+             query: "select count(distinct(ld)) from wpy where  cd between '"+fst_date+"' and '"+date+"'", 
+             fetch_size: "10000"
+         };
+         $http({
+             method: 'POST',
+             url: 'http://es.jetinfo.us/_xpack/sql',
+             headers: {
+                 'Content-Type': 'application/json',
+                 'Accept': 'application/json'
+             },
+             data: JSON.stringify(data_range)
+         })
+                    .then(function (response) {
+				   $scope.month_lead=response.data.rows[0][0];
+                    }, function (error) {
+                        console.log(error);
+                    });
+
+			var waiting = {
+			 query:"select count(distinct(ld))wait_for_call  from wpy  where cd between '"+fst_date+"' and '"+date+"' and (st='NEW LEAD' or st='New Lead') and (nt='' or nt='N' )   and ( sno =0 and sno<>1 )",
+			 fetch_size: "10000"
+         };
+         $http({
+             method: 'POST',
+             url: 'http://es.jetinfo.us/_xpack/sql',
+             headers: {
+                 'Content-Type': 'application/json',
+                 'Accept': 'application/json'
+             },
+             data: JSON.stringify(waiting)
+               }).then(function (response) {
+
+				   $scope.waiting_call=response.data.rows[0][0];
+                    }, function (error) {
+                        console.log(error);
+                    });
+		
+					
+					var month_call = {
+       query: "select ld,cd,md  from wpy where cd between '"+fst_date+"' and '"+date+"' and sno='1'", 
+	   
+             fetch_size: "10000"
+         };
+         $http({
+             method: 'POST',
+             url: 'http://es.jetinfo.us/_xpack/sql',
+             headers: {
+                 'Content-Type': 'application/json',
+                 'Accept': 'application/json'
+             },
+             data: JSON.stringify(month_call)
+         })
+                    .then(function (response) {
+					for(var i=0;i<response.data.rows.length;i++){
+				    var diff=(new Date(response.data.rows[i][2]))-(new Date(response.data.rows[i][1]));
+   
+					var day, hour, minute, seconds;
+					seconds = Math.floor(diff / 1000);
+					minute = Math.floor(seconds / 60);
+					seconds = seconds % 60;
+					hour = Math.floor(minute / 60);
+					minute = minute % 60;
+					day = Math.floor(hour / 24);
+					hour = hour % 24;
+	
+					var time=day+"d "+hour+":"+minute+":"+seconds;
+					var mins=Math.round(parseInt(diff)/60000);
+					var secs=Math.round(parseInt(diff)/1000);
+					var hr=Math.round(parseInt(mins)/60);
+					$scope.arr.push({"leadid":response.data.rows[i][0],"min":mins,"sec":secs,"diff":diff,"hr":hr,"time":time});
+					}
+					$scope.order =$filter('orderBy')($scope.arr, 'sec');
+					var lds=[];
+					$scope.filtered_arr=[];
+					for(var k=0;k<$scope.order.length;k++){
+					if(lds.indexOf($scope.order[k].leadid)<=-1)
+					{
+					 $scope.filtered_arr.push({"leadid":$scope.order[k].leadid,"min":$scope.order[k].min,"sec":$scope.order[k].sec,"diff":$scope.order[k].diff,"hr":$scope.order[k].hr,"time":$scope.order[k].time});
+                    }
+                    lds.push($scope.order[k].leadid);					 
+					}
+					
+					$scope.tot=$scope.filtered_arr.length;
+					$scope.month_called=$scope.filtered_arr.length;
+					
+					$scope.call_pers=((parseInt($scope.month_called)/parseInt($scope.month_lead)*100)).toFixed(2)+"%";
+					$scope.wait_pers=((parseInt($scope.waiting_call)/parseInt($scope.month_lead)*100)).toFixed(2)+"%";
+					
+					for(var l=0;l<$scope.filtered_arr.length;l++){
+					$scope.sectotal+=parseInt($scope.filtered_arr[l].diff);
+					
+					if($scope.filtered_arr[l].min<=30 && $scope.filtered_arr[l].min>=0){
+					one+=1;}
+						else if($scope.filtered_arr[l].min<=60 && $scope.filtered_arr[l].min>30){
+					two+=1;}
+						else if($scope.filtered_arr[l].min<=90 && $scope.filtered_arr[l].min>60){
+					thrd+=1;}
+						else if($scope.filtered_arr[l].min<=120 && $scope.filtered_arr[l].min>90){
+					four+=1;}
+						else if($scope.filtered_arr[l].min<=180 && $scope.filtered_arr[l].min>120){
+					five+=1;}
+						else if($scope.filtered_arr[l].min<=240 && $scope.filtered_arr[l].min>180){
+					six+=1;}else{
+					sev+=1;
+					}
+					}
+					
+					$scope.one=one;
+					$scope.two=two;
+					$scope.thrd=thrd;
+					$scope.four=four;
+					$scope.five=five;
+					$scope.six=six;
+					$scope.sev=sev;
+					
+					$scope.pers_one=(($scope.one/$scope.tot)*100).toFixed(2)+"%";
+					$scope.pers_two=(($scope.two/$scope.tot)*100).toFixed(2)+"%";
+					$scope.pers_thrd=(($scope.thrd/$scope.tot)*100).toFixed(2)+"%";
+					$scope.pers_four=(($scope.four/$scope.tot)*100).toFixed(2)+"%";
+					$scope.pers_five=(($scope.five/$scope.tot)*100).toFixed(2)+"%";
+					$scope.pers_six=(($scope.six/$scope.tot)*100).toFixed(2)+"%";
+					$scope.pers_sev=(($scope.sev/$scope.tot)*100).toFixed(2)+"%";
+					
+					$scope.best =$filter('orderBy')($scope.filtered_arr, 'sec');
+					$scope.worst =$filter('orderBy')($scope.filtered_arr, '-sec');
+				   if($scope.worst[0].hr>24){
+					$scope.higest=$scope.worst[0].time;
+					}
+					
+					else if($scope.worst[0].min>60){
+					$scope.higest=$scope.worst[0].hr+" Hrs";
+					}
+					else if($scope.worst[0].min!=0){
+					$scope.higest=$scope.worst[0].min+" Mins";
+					}else{
+					$scope.higest=$scope.worst[0].sec+" Secs";
+					}
+					
+					 if($scope.best[0].hr>24){
+					$scope.low=$scope.best[0].time;
+					}
+					if($scope.best[0].min>60){
+					$scope.low=$scope.best[0].hr+" Hrs";
+					}
+				    else if($scope.best[0].min!=0){
+					$scope.low=$scope.best[0].min+" Mins";
+					}else{
+					$scope.low=$scope.best[0].sec+" Secs";
+					}
+					
+					var tots=Math.round(($scope.sectotal/$scope.filtered_arr.length)/1000);
+					
+						var day, hour, minute, seconds=tots;
+						minute = Math.floor(seconds / 60);
+						seconds = seconds % 60;
+						hour = Math.floor(minute / 60);
+						minute = minute % 60;
+						day = Math.floor(hour / 24);
+						hour = hour % 24;
+					
+					var avg_time=0;
+					if(hour>24){
+					$scope.avg=day+"d "+hour+":"+minute+":"+seconds;
+					}else if(hour<24 && hour>0){
+				    $scope.avg=hour+":"+minute+":"+seconds;
+					}else if(minute>60){
+					$scope.avg=minute+" Mins";
+					}else {
+						$scope.avg=seconds+" Secs";
+					}
+                    }, function (error) {
+                        console.log(error);
+                    });	
+					}
+					
+					
+					$scope.$watch('today_lead', function(newValue, oldValue){
+					if(newValue>oldValue){
+					var myEl = angular.element( document.querySelector( '#today_card' ) );
+					myEl.addClass('blinking');
+					$timeout(function(){
+					myEl.removeClass('blinking');
+					},10000)
+					}
+					});
+		});
+		</script>
+		
+		
+  </body>
+</html>
+
