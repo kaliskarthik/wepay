@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/PrecompiledWeb/App_Browsers/" hash="ffffffffd8957cfa" filehash="de89959b22a666e" flags="110000" assembly="App_Browsers" type="ASP.ApplicationBrowserCapabilitiesFactory">
+    <filedeps>
+        <filedep name="/PrecompiledWeb/App_Browsers/BrowserFile.browser" />
+        <filedep name="/PrecompiledWeb/App_Browsers/ie.browser" />
+        <filedep name="/PrecompiledWeb/App_Browsers/ie11.browser" />
+    </filedeps>
+</preserve>

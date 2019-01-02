@@ -1,0 +1,907 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_ouwstzok" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1" runat="server">
+<script async src="http://90561.tctm.co/t.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<link rel="icon" href="image/autobuylogo_favi.png" />
+<meta name="format-detection" content="telephone=yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="p:domain_verify" content="036b60a3e25b5d9b8ed88da74ee9f84a"/>
+<!-- Google Tag Manager -->
+<%--<script type="text/javascript">
+
+    (function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TZQ6JWM');
+
+</script>--%>
+<!-- End Google Tag Manager -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/> 
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"  media="all"/>
+<link rel="stylesheet" href="css/wepaythemax-logo.css"  type="text/css" media="all"/>
+<link rel="stylesheet" href="css/icomoon.css"  type="text/css" media="all"/>
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="all"/>
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1024px)" href="css/responsive.css" />
+<link rel="stylesheet" href="css/icomoon-style-sec.css"  type="text/css" media="all"/>
+<script src="js/jquery.js" type="text/javascript"></script>
+       
+<style type="text/css">
+     .modal{
+        position: fixed;
+        z-index: 999999;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.8);
+    }
+    .center{
+        border-radius: 1px;
+        filter: alpha(opacity=100);
+        opacity: 1;
+        -moz-opacity: 1;
+        background-color: transparent;
+        width: 100px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        border-radius: 5px;
+        margin-left: -50px;
+        position: absolute;
+    }
+    .center img{
+        width: 32px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -16px;
+        margin-left: -16px;
+    }
+    ul.social-network li{margin:0;}
+    
+    #Layer_1s{width:222px;height:60px;background-image: url("img/staticlogo.png");background-repeat:no-repeat;}
+       
+    #sellButton{
+        display: none;
+        background: #f9c21e;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 999;
+        text-align: center;
+        cursor:pointer
+    }
+
+       .sellbutton{
+        padding: 18px 12px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #201911;
+        letter-spacing: 0.5px;
+        font-family: roboto;
+        display: inline-block;
+        text-align: center;
+    }
+   
+</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<%--<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=gtm-tzq6jwm" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>--%>
+<!-- End Google Tag Manager (noscript) -->
+<noscript>
+ <div class="alert alert-danger" style="margin-bottom:0;">
+			<span><strong>Notice: </strong> For full functionality of this site it is necessary to reset Internet Explorer settings.
+ Here are the <a href="http://internethelp.centurylink.com/internethelp/browser-ie-11-restore-defaults.html" target="_blank">
+ instructions </a>.</span>
+		</div>
+</noscript>
+
+<!--------------------------------------------------------- seo tag ------------------------------------------------------------------->
+
+<!-- Google Tag Manager (noscript) -->
+<%--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGCXQS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>--%>
+<!-- End Google Tag Manager (noscript) -->
+
+ <!-- Google Tag Manager -->
+   <%--<script>       
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NGCXQS');</script>--%>
+    <!-- End Google Tag Manager -->
+
+  <%--lucky orange--%>
+    <%--<script type='text/javascript'>
+        window.__lo_site_id = 65899;
+
+        (function () {
+            var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+            wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+        })();
+    </script>--%>
+    <%--end of lucky orange--%>
+
+    <!------------------------------------------------------------------------------------------- End seo Tag Manager ----------------------- -->
+
+    <script type="text/javascript">
+        document.body.className += 'fade-out';
+    </script>
+
+
+
+               <span  id="sellButton">
+
+                  <span   class="sellbutton" onclick="drponly2()" >Sell Your Vehicle</span>
+
+                  <span style="display: inline-block;vertical-align: middle;margin-top: -6px;"> 
+
+                      <i class="fa fa-angle-right" style="font-size: 20px;"></i>
+
+                   </span>
+
+               </span>
+
+         
+
+
+
+
+<div class="animate-bottom" id="wrapper">
+        
+<nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://183.82.32.95:8079/" id="logo-desk">
+                <div id="Layer_1"></div>
+                <%--<span class="max-logo"><img src="img/max.png" alt="max" style="width:40px"/></span>--%>
+            </a>
+
+           
+            
+            <a class="navbar-brand" href="tel:8884288381" id="mobile-phone-view">
+            <span class="flaticon-phone" aria-hidden="true"></span>
+            </a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="first">Sell Your Vehicle<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+                            <a href="Sell_your_car_truck_suv.aspx" target="_self">
+                                <span class="icon-car icon_vehicles-colors icon-left" style="font-size: 40px;padding:0 8px"></span>
+                                <span class="nav_icon_heading">Sell Your Car,Suv &amp; Truck</span>
+                            </a>
+                         </li>
+						<li><a href="Sell_your_motorcycle.aspx" target="_self"><span class="icon-bike icon_vehicles-colors icon-left" style="font-size: 40px;padding:0 8px"></span>
+                                   
+                                        <span class="nav_icon_heading">Sell your Motorcycle</span></a></li>
+                        <li><a href="Sell-your-boat.aspx" target="_self"> <span class="icon-boat icon_vehicles-colors icon-left" style="font-size:40px;padding:0 8px"></span>
+                                   
+                                        <span class="nav_icon_heading">Sell Your Boat</span></a></li>
+                        <li><a href="Sell-your-recreational-vehicle.aspx" target="_self"><span class="icon-Rv icon_vehicles-colors icon-left" style="padding:0 8px; font-size: 40px;"></span>
+                                   
+                                        <span class="nav_icon_heading" style=" padding-left: 32px;">Sell Your Rv's</span></a></li>
+                        <li><a id="last-child-vehicle" href="Sell_your_commercial_vehicle.aspx" target="_self"><span class="icon-cv icon_vehicles-colors icon-left" style="font-size: 40px;padding:0 8px"></span>
+                                    
+                                        <span class="nav_icon_heading ">Sell Your Cv's</span></a></li>
+					</ul>
+				</li>
+                <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="second_dropdown">Our Locations<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+                            <a href="miami.aspx" target="_self">
+                                <span class="icon-miami icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Miami</span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="Fort_lauderdale.aspx" target="_self">
+                                <span class="icon-fort icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Fort Lauderdale</span>
+                            </a>
+                         </li>
+						<li>
+                             <a href="West_palm_beach.aspx" target="_self">
+                                 <span class="icon-palm_beach icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">West Palm Beach</span>
+                             </a>
+                        </li>
+						<li>
+                            <a href="Treasure_coast.aspx" target="_self">
+                                <span class="icon-treasure_coast icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Stuart</span>
+                            </a>
+                         </li>
+                        <li>
+                            <a href="Melbourne.aspx" target="_self">
+                                <span class="icon-melbourne icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Melbourne</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Orlando.aspx" target="_self">
+                                <span class="icon-orlando icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Orlando</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Daytona.aspx" target="_self">
+                                <span class="icon-daytona icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Daytona</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="Sell-my-car-sanford.aspx" target="_self">
+                                <span class="icon-orlando icon-left" style="font-size: 40px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading">Sanford</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="last-child-location" href="Selling-a-car-cutler-bay.aspx" target="_self">
+                                <span class="icon2-cutlerbay icon-left" style="font-size: 24px;padding: 7px 8px;"></span>
+                                <span class="nav_icon_heading">Cutler Bay</span>
+                            </a>
+                        </li>
+					</ul>
+				</li>
+                <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="third_dropdown">How It Works<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="How_it_works.aspx" target="_self">
+                                <span class="icon-schedule_an_appraisal icon-left" style="font-size: 32px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading" style="padding-top:6px;">How it Works</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="last-child-location" href="Whats-my-car-worth.aspx" target="_self">
+                                <span class="icon-submit_your_vehicle icon-left" style="font-size: 32px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading" style="padding-top:6px;">Whats my Car Worth</span>
+                            </a>
+                        </li>
+                         <%--<li>
+                            <a href="How_it_works.aspx" target="_self">
+                                <span class="fa fa-caret-right" style="float: left;width: 25px;font-size: 20px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading" style="padding-top:2px;padding-left: 2px;">How it Works</span>
+                            </a>
+                        </li>
+						<li>
+                            <a id="last-child-location" href="Whats-my-car-worth.aspx" target="_self">
+                                <span class="fa fa-caret-right" style="float: left;width: 25px;font-size: 20px;padding: 0 8px"></span>
+                                <span class="nav_icon_heading" style="padding-top:2px;padding-left: 2px;">Whats my Car Worth</span>
+                            </a>
+                        </li>--%>
+
+					</ul>
+				</li>
+                <li class="active"><a href = "Faq.aspx" target="_self" id="fourth_dropdown">FAQ<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href = "Testimonials.aspx" target="_self"  id="fifth_dropdown">Testimonials<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href = "Contact.aspx" target="_self"  id="sixth_dropdown">Contact Details<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="Espanol.aspx" id="seventh_dropdown"  target="_self">Espanol<span class="sr-only">(current)</span></a></li>
+                <li class="active" id="desk-phone-view"><a href="#"><i class="fa fa-mobile" aria-hidden="true" style="    font-size: 25px;
+    color: #1a37ff;
+    position: relative;
+    top: 2px;"></i>&nbsp;&nbsp;<span id="soci-div-number">(888) 428-8381</span><span class="sr-only">(current)</span></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<%--nav for mobile view static header--%>
+
+
+
+
+<%--end of nav for mobile view static header--%>
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+<div class="container-fluid" style="background-color: #274e9d;clear:left;">
+<div id="sixth-section" class="col-md-12 footer">
+<ul class="section" style="display:none;">
+	<li><a href="#">Sell Your Vehicle</a></li>
+	<li><a href="#">Our Location</a></li>
+	<li><a href="#">How It Works</a></li>
+	<li><a href="#">FAQ</a></li>
+	<li><a href="#">Testimonials</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+    <div class="location_address">
+        <ul class="col-md-4 col-sm-4">
+            <li class="loca_icon"><a href="miami.aspx"><span class="icon-miami" style="font-size: 60px;color: 
+
+#19366e;"></span></a></li>    
+            <li class="location_title">Miami</li>
+            <li>305-363-3161</li>
+            <li>2001 NW 167th St.,</li>
+            <li>Miami Gardens, FL 33056</li>
+        </ul>
+        <ul class="col-md-4 col-sm-4">
+            <li class="loca_icon"><a href="Fort_lauderdale.aspx"><span class="icon-fort" style="font-size: 60px;color: 
+
+#19366e;"></span></a></li>    
+            <li class="location_title">Fort Lauderdale</li>
+            <li>954-532-2260</li>
+            <li>301 N State Road 7,</li>
+            <li>Margate, FL 33063</li>
+        </ul>
+        <ul class="col-md-4 col-sm-4">
+            <li class="loca_icon"><a href="West_palm_beach.aspx"><span class="icon-palm_beach" style="font-size: 60px;color: 
+
+#19366e;"></span></a></li>    
+            <li class="location_title">Palm Beach County</li>
+            <li>561-797-2400</li>
+            <li>1500 Belvedere Road,</li>
+            <li>West Palm Beach, FL 33406</li>
+        </ul>
+        <ul class="col-md-4 col-sm-4 tab_trc ui-loc-top">
+            <li class="loca_icon"><a href="Melbourne.aspx"><span class="icon-melbourne" style="font-size: 60px;color: 
+
+#19366e;"></span></a></li>    
+            <li class="location_title">Melbourne</li>
+            <li>321-206-3887</li>
+            <li>223 East New Haven Ave.,</li>
+            <li>Melbourne, FL 32901</li>
+        </ul>
+        <ul class="col-md-4 col-sm-4 tab_trc ui-loc-top">
+            <li class="loca_icon"><a href="Treasure_coast.aspx"><span class="icon-treasure_coast" style="font-size: 60px;color: 
+
+#19366e;"></span></a></li>    
+            <li class="location_title">Treasure Coast</li>
+            <li>772-210-5357</li>
+            <li>1957 SE Federal HWY,</li>
+            <li>Stuart, FL 34994</li>
+        </ul>
+        <ul class="col-md-4 col-sm-4 tab_trc ui-loc-top">
+            <li class="loca_icon">
+                <a href="Orlando.aspx">
+                    <span class="icon-orlando" style="font-size: 60px;color: #19366e;"></span>
+                </a>
+            </li>    
+            <li class="location_title">Orlando</li>
+            <li>888-203-2131</li>
+            <li>1350 W Landstreet Rd,</li>
+            <li>Orlando, FL 32824</li>
+        </ul>
+
+        <ul class="col-md-4 col-sm-4 tab_trc ui-loc-top">
+            <li class="loca_icon">
+                <a href="Daytona.aspx">
+                    <span class="icon-daytona" style="font-size: 60px;color: #19366e;"></span>
+                </a>
+            </li>    
+            <li class="location_title">Daytona</li>
+            <li>386-219-1037</li>
+            <li>1305 Indian Lake Rd,</li>
+            <li>Daytona Beach, FL 32124</li>
+        </ul>
+        <ul class="col-md-4 col-sm-4 tab_trc ui-loc-top">
+            <li class="loca_icon">
+                <a href="Sell-my-car-sanford.aspx">
+                    <span class="icon-orlando" style="font-size: 60px;color: #19366e;"></span>
+                </a>
+            </li>    
+            <li class="location_title">Sanford</li>
+            <li>888-203-2131</li>
+            <li>3100 Sade Park Lane,</li>
+            <li>Sanford, FL 32771</li>
+        </ul>
+
+        <ul class="col-md-4 col-sm-4 tab_trc ui-loc-top">
+            <li class="loca_icon">
+                <a href="Selling-a-car-cutler-bay.aspx">
+                    <span class="icon2-cutlerbay" style="font-size: 32px;color: #19366e; display: inline-block;padding: 12px 0;"></span>
+                </a>
+            </li>    
+            <li class="location_title">Cutler Bay</li>
+            <li>305-363-3161</li>
+            <li> 20302 S Dixie Hwy,</li>
+            <li> Cutler Bay, FL 33189</li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="col-md-12 col-sm-12" style="background-color: #19366e;">
+   <div class="rights col-md-8 col-sm-12">
+        <h6 id="dk-list-link">Copyright 2016 - <a href="Privacy_Policy.aspx">Privacy Policy</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="Sitemap.aspx">Sitemap</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="Articles.aspx">Articles</a>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="http://media.wepaythemax.com/">Media Center</a>&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Design &amp; Developed by&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.rcktechiees.com" target="_blank" title="Software It Consultant" style="color:#fff">Software IT Consultant</a></h6>
+        <h6 id="mobile-list-link">
+        <a href="Privacy_Policy.aspx">Privacy Policy</a> <a href="Sitemap.aspx">Sitemap</a><a href="Articles.aspx">Articles</a><a href="http://media.wepaythemax.com/">Media Center</a>    
+        Copyright &copy; 2016<a href="http://www.rcktechiees.com" target="_blank" title="Software It Consultant" style="color:#fff">Design &amp; Developed by Software IT Consultant</a>
+        </h6>
+    </div>
+    <div class="col-md-4 col-sm-12 foot_parent" >
+    <ul class="social-network social-circle">
+        <li><a href="https://plus.google.com/b/110208659821556738274/+WepaythemaxMiami/about" class="icoGoogle icon_bg" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.facebook.com/autobuy" class="icoFacebook icon_bg" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/WePayTheMax" class="icoTwitter icon_bg" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/wepaythemax/" class="icoinstag icon_bg" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://in.pinterest.com/autobuy/" class="icopinterest icon_bg" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCMSOEvqgt0EkffqewAZIkxQ" class="icoyt icon_bg" title="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        <li><a href="http://blog.wepaythemax.com" class="icoblog icon_bg" title="Blog"><i class="icon-blogger"></i></a></li>     
+    </ul>	
+    </div>
+</div>
+</div>
+   <a href="#" class="back-to-top" style="background-color: rgb(0, 48, 143); box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 5px; display: inline;display:none;">
+<i class="fa fa-angle-down" aria-hidden="true" style="font-size: 30px;transform: rotate(180deg);"></i>
+   </a>  
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/textbox_effect.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/scroll-animates.css" type="text/css" media="all"/>
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css" media="all"/> 
+<link rel="stylesheet" href="video/css/blueimp-gallery.css" media="all"/> 
+
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/slick.js" type="text/javascript"></script>
+<script src="js/fastclick.js" type="text/javascript"></script>
+<script src="video/js/blueimp-helper.js" type="text/javascript"></script>
+<script src="video/js/blueimp-gallery.js" type="text/javascript"></script>
+<script src="video/js/blueimp-gallery-video.js" type="text/javascript"></script>
+<script src="video/js/blueimp-gallery-youtube.js" type="text/javascript"></script>
+<script src="video/js/demo.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(function () {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="js/main.js" type="text/javascript"></script>  
+<script src="js/simple-overlay.js" type="text/javascript"></script>
+
+            <script type="text/javascript">
+            function drponly2() {
+              
+            document.getElementById("drponly").style.display = "block";
+            document.getElementById("txtonly").style.display = "none";
+        }
+    </script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        if ($(window).width() < 797) {
+
+            $('#desk-phone-view').css('display', 'none');
+
+        }
+
+        $(window).scroll(function () {
+            var sticky = $('.navbar'),
+                scroll = $(window).scrollTop();
+            if (scroll > 55) {
+                sticky.addClass('fixed');
+                if ($(window).width() < 600) {
+                    if (scroll > 300) {
+
+                        $("#sellButton").fadeIn();
+
+                    }
+                    else {
+
+                        //alert();
+
+                        $("#sellButton").fadeOut();
+                    }
+                }
+            }
+            else {
+
+                sticky.removeClass('fixed');
+
+                if ($(window).width() < 600) {
+
+                    $("#sellButton").fadeOut();
+
+                }
+            }
+        });
+
+        $('input').on("focus", function () {
+            $("#sellButton").fadeOut();
+        });
+
+
+       
+    });
+</script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 797) {
+                $("#animation-top-1").click(function () {
+                    $(".form-menu").show(), $(".icon-car").addClass("car-bg-side"), $(".icon-bike").removeClass("bike-bg-side"), $(".icon-boat").removeClass("boat-bg-side"), $(".icon-Rv").removeClass("rvs-bg-side"), $(".icon-cv").removeClass("cvs-bg-side"), $(".icon-car").css("opacity", "1"), $(".icon-car span").addClass("side-icons-tickmart-car"), $(".icon-bike span").removeClass("side-icons-tickmart-bike"), $(".icon-boat span").removeClass("side-icons-tickmart-boat"), $(".icon-Rv span").removeClass("side-icons-tickmart-rvs"), $(".icon-cv span").removeClass("side-icons-tickmart-cvs"), $(".inner-container h3").css("background", "#019BFF"), $(".button-menu").addClass("blue-tab h2"), $("a.inner-submit").css("background", "#019BFF"), $("a.inner-submit").css("background-repeat", "no-repeat"), $("a.inner-submit").css("background-position", "70% 11px"), $("a.inner-cancel").css("border", "2px solid #019BFF"), $("a.inner-cancel").css("color", "#019BFF"), $("a.inner-cancel").addClass("cancel-blue"), $("input.step1").css("background", "#019BFF"), $(".button-menu").removeClass("orange-tab h2 yellow-tab h2 green-tab h2 red-tab h2"), $("a.inner-cancel").removeClass("cancel-orange cancel-yellow cancel-green cancel-red");
+                    $(window).scrollTop(0);
+                    $('#image-location').css('display', 'none');
+                    if ($(window).width() < 500) {
+                        $('.cb-banner').css('padding-top', '110px');
+                        document.getElementById("drponly").style.display = "block";
+                        document.getElementById("txtonly").style.display = "none";
+                    }
+                    form_is_open = !0, $(".form-menu").show(), $("#sell-form-top-but").css("visibility", "hidden"), $(".icon-car").addClass("car-bg-side"), $(".icon-bike").removeClass("bike-bg-side"), $(".icon-boat").removeClass("boat-bg-side"), $(".icon-Rv").removeClass("rvs-bg-side"), $(".icon-cv").removeClass("cvs-bg-side"), $(".icon-car").css("opacity", "1"), $(".icon-car span").addClass("side-icons-tickmart-car"), $(".icon-bike span").removeClass("side-icons-tickmart-bike"), $(".icon-boat span").removeClass("side-icons-tickmart-boat"), $(".icon-Rv span").removeClass("side-icons-tickmart-rvs"), $(".icon-cv span").removeClass("side-icons-tickmart-cvs"), $(".inner-container h3").css("background", "#019BFF"), $(".button-menu").addClass("blue-tab h2"), $("a.inner-submit").css("background", "#019BFF"), $("a.inner-submit").css("background-repeat", "no-repeat"), $("a.inner-submit").css("background-position", "70% 11px"), $("a.inner-cancel").css("border", "2px solid #019BFF"), $("a.inner-cancel").css("color", "#019BFF"), $("a.inner-cancel").addClass("cancel-blue"), $("input.step1").css("background", "#019BFF"), $(".button-menu").removeClass("orange-tab h2 yellow-tab h2 green-tab h2 red-tab h2"), $("a.inner-cancel").removeClass("cancel-orange cancel-yellow cancel-green cancel-red"), $(".form-menu").is(":visible") && ($("#change-icon-class,#select-icon").show(), $("#change-icon-class").addClass("icon-car icon_vehicles-border"), $("#select-icon").addClass("fa fa-check"), $(".icon_vehicles-border").css("background", "#019BFF"), $(".icon_vehicles-border").css("line-height", "100px"), $(".icon_vehicles-border").css("display", "block"), $(".badge-1").css("background", "#019BFF", "color", "#ffffff"), $(".badge-1").css("display", "inline-block"), $("#change-icon-class").removeClass("icon-bike icon-boat icon-Rv icon-cv"))
+                    return false;
+                    
+                });
+                $("#animation-top-2").click(function () {
+                    $(".form-menu").show(), $(".icon-car").addClass("car-bg-side"), $(".icon-bike").removeClass("bike-bg-side"), $(".icon-boat").removeClass("boat-bg-side"), $(".icon-Rv").removeClass("rvs-bg-side"), $(".icon-cv").removeClass("cvs-bg-side"), $(".icon-car").css("opacity", "1"), $(".icon-car span").addClass("side-icons-tickmart-car"), $(".icon-bike span").removeClass("side-icons-tickmart-bike"), $(".icon-boat span").removeClass("side-icons-tickmart-boat"), $(".icon-Rv span").removeClass("side-icons-tickmart-rvs"), $(".icon-cv span").removeClass("side-icons-tickmart-cvs"), $(".inner-container h3").css("background", "#019BFF"), $(".button-menu").addClass("blue-tab h2"), $("a.inner-submit").css("background", "#019BFF"), $("a.inner-submit").css("background-repeat", "no-repeat"), $("a.inner-submit").css("background-position", "70% 11px"), $("a.inner-cancel").css("border", "2px solid #019BFF"), $("a.inner-cancel").css("color", "#019BFF"), $("a.inner-cancel").addClass("cancel-blue"), $("input.step1").css("background", "#019BFF"), $(".button-menu").removeClass("orange-tab h2 yellow-tab h2 green-tab h2 red-tab h2"), $("a.inner-cancel").removeClass("cancel-orange cancel-yellow cancel-green cancel-red");
+                    $(window).scrollTop(0);
+                    $('#image-location').css('display', 'none');
+                    if ($(window).width() < 500) {
+                        $('.cb-banner').css('padding-top', '110px');
+                        document.getElementById("drponly").style.display = "block";
+                        document.getElementById("txtonly").style.display = "none";
+
+                    }
+                    form_is_open = !0, $(".form-menu").show(), $("#sell-form-top-but").css("visibility", "hidden"), $(".icon-car").addClass("car-bg-side"), $(".icon-bike").removeClass("bike-bg-side"), $(".icon-boat").removeClass("boat-bg-side"), $(".icon-Rv").removeClass("rvs-bg-side"), $(".icon-cv").removeClass("cvs-bg-side"), $(".icon-car").css("opacity", "1"), $(".icon-car span").addClass("side-icons-tickmart-car"), $(".icon-bike span").removeClass("side-icons-tickmart-bike"), $(".icon-boat span").removeClass("side-icons-tickmart-boat"), $(".icon-Rv span").removeClass("side-icons-tickmart-rvs"), $(".icon-cv span").removeClass("side-icons-tickmart-cvs"), $(".inner-container h3").css("background", "#019BFF"), $(".button-menu").addClass("blue-tab h2"), $("a.inner-submit").css("background", "#019BFF"), $("a.inner-submit").css("background-repeat", "no-repeat"), $("a.inner-submit").css("background-position", "70% 11px"), $("a.inner-cancel").css("border", "2px solid #019BFF"), $("a.inner-cancel").css("color", "#019BFF"), $("a.inner-cancel").addClass("cancel-blue"), $("input.step1").css("background", "#019BFF"), $(".button-menu").removeClass("orange-tab h2 yellow-tab h2 green-tab h2 red-tab h2"), $("a.inner-cancel").removeClass("cancel-orange cancel-yellow cancel-green cancel-red"), $(".form-menu").is(":visible") && ($("#change-icon-class,#select-icon").show(), $("#change-icon-class").addClass("icon-car icon_vehicles-border"), $("#select-icon").addClass("fa fa-check"), $(".icon_vehicles-border").css("background", "#019BFF"), $(".icon_vehicles-border").css("line-height", "100px"), $(".icon_vehicles-border").css("display", "block"), $(".badge-1").css("background", "#019BFF", "color", "#ffffff"), $(".badge-1").css("display", "inline-block"), $("#change-icon-class").removeClass("icon-bike icon-boat icon-Rv icon-cv"))
+                    return false;
+                    
+                });
+                $("#animation-top-3").click(function () {
+                    $(".form-menu").show(), $(".icon-car").addClass("car-bg-side"), $(".icon-bike").removeClass("bike-bg-side"), $(".icon-boat").removeClass("boat-bg-side"), $(".icon-Rv").removeClass("rvs-bg-side"), $(".icon-cv").removeClass("cvs-bg-side"), $(".icon-car").css("opacity", "1"), $(".icon-car span").addClass("side-icons-tickmart-car"), $(".icon-bike span").removeClass("side-icons-tickmart-bike"), $(".icon-boat span").removeClass("side-icons-tickmart-boat"), $(".icon-Rv span").removeClass("side-icons-tickmart-rvs"), $(".icon-cv span").removeClass("side-icons-tickmart-cvs"), $(".inner-container h3").css("background", "#019BFF"), $(".button-menu").addClass("blue-tab h2"), $("a.inner-submit").css("background", "#019BFF"), $("a.inner-submit").css("background-repeat", "no-repeat"), $("a.inner-submit").css("background-position", "70% 11px"), $("a.inner-cancel").css("border", "2px solid #019BFF"), $("a.inner-cancel").css("color", "#019BFF"), $("a.inner-cancel").addClass("cancel-blue"), $("input.step1").css("background", "#019BFF"), $(".button-menu").removeClass("orange-tab h2 yellow-tab h2 green-tab h2 red-tab h2"), $("a.inner-cancel").removeClass("cancel-orange cancel-yellow cancel-green cancel-red");
+                    $(window).scrollTop(0);
+                    $('#image-location').css('display', 'none');
+                    if ($(window).width() < 500) {
+                        $('.cb-banner').css('padding-top', '110px');
+                        document.getElementById("drponly").style.display = "block";
+                        document.getElementById("txtonly").style.display = "none";
+
+                    }
+                    form_is_open = !0, $(".form-menu").show(), $("#sell-form-top-but").css("visibility", "hidden"), $(".icon-car").addClass("car-bg-side"), $(".icon-bike").removeClass("bike-bg-side"), $(".icon-boat").removeClass("boat-bg-side"), $(".icon-Rv").removeClass("rvs-bg-side"), $(".icon-cv").removeClass("cvs-bg-side"), $(".icon-car").css("opacity", "1"), $(".icon-car span").addClass("side-icons-tickmart-car"), $(".icon-bike span").removeClass("side-icons-tickmart-bike"), $(".icon-boat span").removeClass("side-icons-tickmart-boat"), $(".icon-Rv span").removeClass("side-icons-tickmart-rvs"), $(".icon-cv span").removeClass("side-icons-tickmart-cvs"), $(".inner-container h3").css("background", "#019BFF"), $(".button-menu").addClass("blue-tab h2"), $("a.inner-submit").css("background", "#019BFF"), $("a.inner-submit").css("background-repeat", "no-repeat"), $("a.inner-submit").css("background-position", "70% 11px"), $("a.inner-cancel").css("border", "2px solid #019BFF"), $("a.inner-cancel").css("color", "#019BFF"), $("a.inner-cancel").addClass("cancel-blue"), $("input.step1").css("background", "#019BFF"), $(".button-menu").removeClass("orange-tab h2 yellow-tab h2 green-tab h2 red-tab h2"), $("a.inner-cancel").removeClass("cancel-orange cancel-yellow cancel-green cancel-red"), $(".form-menu").is(":visible") && ($("#change-icon-class,#select-icon").show(), $("#change-icon-class").addClass("icon-car icon_vehicles-border"), $("#select-icon").addClass("fa fa-check"), $(".icon_vehicles-border").css("background", "#019BFF"), $(".icon_vehicles-border").css("line-height", "100px"), $(".icon_vehicles-border").css("display", "block"), $(".badge-1").css("background", "#019BFF", "color", "#ffffff"), $(".badge-1").css("display", "inline-block"), $("#change-icon-class").removeClass("icon-bike icon-boat icon-Rv icon-cv"))
+                    return false;
+                    
+                });
+
+                $("#animation-top-1 a").click(function (e) {
+                    e.stopPropagation();
+                });
+
+             
+
+
+            }
+        });
+</script>
+<script type="text/javascript">
+    if ($(window).width() >= 991) {
+        $('ul.nav li.dropdown').hover(function () {
+            $(this).find('.dropdown-menu').stop(true, true).delay().fadeIn();
+        }, function () {
+            $(this).find('.dropdown-menu').stop(true, true).delay().fadeOut();
+        });
+    }
+    </script>
+        <script type="text/javascript">
+
+            // Simple Overlay
+            $(".btn-content").simpleOverlay({
+                "speed": 800
+            }, function () {
+                console.log("A callback event! WUHU!");
+            });
+
+            // Vimeo Video overlay
+            $(".btn-vimeo").simpleOverlay({
+                "insertBy": "embed",
+                "attribute": "data-vimeo"
+            });
+
+            // Youtube Video overlay
+            $(".btn-youtube").simpleOverlay({
+                "insertBy": "embed",
+                "attribute": "data-youtube"
+            });
+
+</script>
+    <script type="text/javascript">
+
+            $(function () {
+
+                $('body').removeClass('fade-out');
+
+        });
+    
+    </script>
+ <script type="text/javascript">
+     $(document).ready(function () {
+         if ($(window).width() >= 800) {
+             $("#right-div-icons").fadeIn(500);
+             $(".slider").fadeIn(500);
+         }
+         if ($(window).width() <= 800) {
+             $("#right-div-icons").fadeIn(200);
+         }
+     });
+
+    </script> 
+
+ 
+  
+ <script type="text/javascript">
+     $(document).on('ready', function() {
+     if ($(window).width() >=1200) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  lazyLoad: 'ondemand',
+adaptiveHeight: true,
+         });
+
+     $('.locautoplay').slick({
+         slidesToShow: 8,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 2000,
+         lazyLoad: 'ondemand',
+         adaptiveHeight: true,
+     });
+         $(".variable").slick({
+        variableWidth: true
+      });
+      $('.lazy').slick({
+  slidesToShow: 8,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 3000,
+
+});
+
+      }
+else if ($(window).width() >= 1000) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  lazyLoad: 'ondemand',
+adaptiveHeight: true,
+});
+         $(".variable").slick({
+        variableWidth: true
+      });
+      $('.lazy').slick({
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      }  
+else if ($(window).width() >= 900) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  lazyLoad: 'ondemand',
+adaptiveHeight: true,
+});
+         $(".variable").slick({
+        variableWidth: true
+      });
+      $('.lazy').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      }  
+
+else if ($(window).width() >= 767) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  lazyLoad: 'ondemand',
+adaptiveHeight: true,
+});
+      $('.lazy').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      } 
+
+else if ($(window).width() >= 600) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  lazyLoad: 'ondemand',
+adaptiveHeight: true,
+});
+      $('.lazy').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      }  
+          
+else if ($(window).width() >= 451) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+      $('.lazy').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      }
+      else if ($(window).width() >= 351) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+ 
+      $('.lazy').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      }
+      else if ($(window).width() <= 350) {
+        //console.log($(window).width());
+     $('.autoplay').slick({   
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+      $('.lazy').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+
+});
+
+      }
+    });
+  </script>
+  <script type="text/javascript">
+      var amountScrolled = 550;
+
+      $(window).scroll(function () {
+          if ($(window).scrollTop() > amountScrolled) {
+              $('a.back-to-top').fadeIn('slow');
+          } else {
+              $('a.back-to-top').fadeOut('slow');
+          }
+      });
+</script>
+  <script type="text/javascript">
+      $('a.back-to-top').click(function () {
+          $('html, body').animate({
+              scrollTop: 0
+          }, 700);
+          return false;
+      });
+
+
+
+
+
+    
+</script>
+
+<script type="text/javascript">
+
+      $(document).ready(function () {
+
+
+
+
+          // source code inside document ready function in the master page
+
+          var get_ref = document.referrer;
+
+          get_ref = get_ref.toUpperCase();
+
+
+          var match_check = get_ref.indexOf('WEPAYTHEMAX');
+
+
+          if (match_check >= 0) {
+
+              localStorage.setItem('referral', "0");
+          }
+          else {
+
+              localStorage.setItem('referral', "0");
+          }
+
+
+
+        // end of source code
+
+
+
+
+        $('.sell-img').bind('touchstart', function () {
+            //some action
+            $('.circle-icon').css('background', '#00308f');
+            $('.rotate-icons').css('transform', 'none');
+            $('.rotate-icons').css('transition', 'none');
+            $('.rotate-icons').css('color', '#fff');
+            $('.rotate-icons .icon_box_2').css('color', '#fff');
+        });
+
+    });
+
+   
+
+            function submit_top()
+            {
+
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+            }
+
+</script>
+
+
+</body>
+</html>

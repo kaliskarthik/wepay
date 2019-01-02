@@ -1,0 +1,144 @@
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 13:22:33
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fdds~dfg~raju@rcktechiees.com~dg~2015~BMW~-Select Model-~~~100.7 Y100~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MELBOURNE~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 13:38:55
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:r~df~raju@rcktechiees.com~343~ Select Year ~Select Make~Select Model~~~PREVIOUS CUSTOMER~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 13:41:11
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:dfdf~fd~raju@rcktechiees.com~df~2005~FERRARI~456 M~~~REFERRAL/FRIEND~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 15:15:30
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:rah~s~raju@rcktechiees.com~s~2003~FERRARI~-Select Model-~~~SIGNAGE~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~STUART~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 15:27:03
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fgf~fg~raju@rcktechiees.com~fg~ Select Year ~Select Make~Select Model~~~WFKS 95.1 KISS~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 15:28:41
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:th~h~raju@rcktechiees.com~r~ Select Year ~Select Make~Select Model~~~SIGNAGE~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 15:42:06
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fgf~fg~raju@rcktechiees.com~fg~ Select Year ~Select Make~Select Model~~~610. WIOD~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MELBOURNE~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 15:52:25
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fg~fg~raju@rcktechiees.com~fg~2003~DODGE~NEON~~~BILLBOARD~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 16:12:27
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Sell-your-boat.aspx Method Name: Get_Start_insert_lead. log Message:ra~s~raju@rcktechiees.com~s~2005~DODGE~-Select Model-~~~SIGNAGE~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Sell-your-boat.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Sell-your-boat.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 16:18:52
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Sell_your_motorcycle.aspx Method Name: Get_Start_insert_lead. log Message:fgfg~fg~raju@rcktechiees.com~fg~ Select Year ~Select Make~Select Model~~~GOOGLE~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Sell_your_motorcycle.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Sell_your_motorcycle.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 20:31:12
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~s~raju@rcktechiees.com~3434~2013~BMW~328~~~GOOGLE~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/25/2016 20:45:51
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~s~raju@rcktechiees.com~3434~ Select Year ~Select Make~Select Model~~~96.5 POWER96~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~STUART~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 17:39:09
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:df~df~raju@rcktechiees.com~343434~2013~--SELECT MAKE--~--SELECT MODEL--~~~640 AM WMEN~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 17:41:04
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:vb~vb~raju@rcktechiees.com~343434~2005~CHRYSLER~~~~SIGNAGE~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 17:41:54
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:f~df~raju@rcktechiees.com~343434~1998~ISUZU~~~~TWITTER~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MELBOURNE~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 18:05:00
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:c~c~raju@rcktechiees.com~343434~--SELECT YEAR--~~~~~GATOR 98.7~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 18:07:57
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fgf~fgf~raju@rcktechiees.com~343434~1996~CHRYSLER~ASPEN~45~~Bing~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MIAMI~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 18:56:34
+Log Details  http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fg~df~raju@rcktechiees.com~df~2012~BENTLEY~CONTINENTAL SUPERSPORTS~45~~610. WIOD~~127.0.0.1~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:35956/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~MELBOURNE~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 20:05:04
+Log Details  http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:f~f~raju@rcktechiees.com~343434~2002~BUICK~~~~GATOR 98.7~~127.0.0.1~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 20:06:49
+Log Details  http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:df~df~raju@rcktechiees.com~df~2007~~~~~GATOR 98.7~~127.0.0.1~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 20:09:53
+Log Details  @ra Method Name: testing. log Message:gh
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/26/2016 20:09:55
+Log Details  http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:df~f~raju@rcktechiees.com~df~2008~HARLEY DAVIDSON~SOFTAIL~~~REFERRAL/FRIEND~~127.0.0.1~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/28/2016 16:31:00
+Log Details  http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx Method Name: Get_Start_insert_lead. log Message:fg~df~raju@rcktechiees.com~344~1968~FORD~MUSTANG~45~f~FACEBOOK~~127.0.0.1~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Index.aspx~~FORT LAUDERDALE~~~
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+11/28/2016 18:14:04
+Log Details  http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Testimonials.aspx Method Name: Get_Start_insert_lead. log Message:dfg~fg~raju@rcktechiees.com~fg~2010~BMW~135~~~BILLBOARD~~127.0.0.1~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Testimonials.aspx~http://localhost:7905/wepaythemax_final_live_code_15th_Nov_eve/Testimonials.aspx~~ORLANDO~~~
+____________________________________________________END________________________________________________

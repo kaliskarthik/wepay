@@ -1,0 +1,47 @@
+8
+
+dir
+63
+https://192.168.1.186/svn/LIVEWEPAYTHEMAX/branches/01.06.2018_wepaymax_NxtLead/fonts
+https://192.168.1.186/svn/LIVEWEPAYTHEMAX
+
+
+
+2018-06-04T12:18:53.831460Z
+60
+raju
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f7a187b2-67b7-f549-86bd-655fcee16ee8
+
+font-awesome
+dir
+
+font-awesome.rar
+file
+
+
+
+
+
+ddada4ea602ec83f142d5df78ae4e75a
+2018-06-04T12:18:53.831460Z
+60
+raju
+has-props
+
+glypicons
+dir
+

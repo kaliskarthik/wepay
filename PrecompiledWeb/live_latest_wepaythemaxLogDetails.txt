@@ -1,0 +1,629 @@
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 13:44:59
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2011~FORD~ESCAPE 4WD 4C HYBRID~222~22~SIGNAGE~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~WEST PALM BEACH~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 13:46:02
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 437
+ClientConnectionId:866b2135-f2b6-419c-a8c2-b1a08611953b
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:04:53
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~FORD~EDGE AWD~4444~445~PREVIOUS CUSTOMER~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~MELBOURNE~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:06:12
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 437
+ClientConnectionId:4f39b0ae-8bec-4d5f-bb6d-7cd2ca19467a
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:13:25
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~FORD~EDGE FWD~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:13:54
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 437
+ClientConnectionId:d43c088c-381e-4106-80e8-d6ac18b20bfb
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:17:50
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~GMC~2500HD SIERRA 2WD V8 TDSL~343~223~Pride Orlando~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:17:50
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 437
+ClientConnectionId:d43c088c-381e-4106-80e8-d6ac18b20bfb
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:52:45
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~FORD~EDGE AWD~343~223~REFERRAL/FRIEND~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~MELBOURNE~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 14:59:43
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 437
+ClientConnectionId:f059a922-90ae-4d45-91d7-9092d3549bf3
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 15:03:25
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2010~FORD~EDGE AWD~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 15:12:17
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 437
+ClientConnectionId:afc13a7d-7d3a-462f-821c-d82069ac53f8
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 15:20:29
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2010~FORD~EDGE AWD~1234565~445~Pride Orlando~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 15:21:49
+Log Details  http://localhost:51512/Index.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function Wepaythemax_LeadUpdate_insert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\01.06.2018_wepaymax_NxtLead\App_Code\scheduled_email.cs:line 436
+ClientConnectionId:71c83500-5bbc-4550-a171-c0821b60c2cc
+Error Number:8144,State:2,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 15:23:49
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~FERRARI~430~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 17:18:36
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test2~test~karthick@rcktechiees.com~12344~2009~FORD~EDGE FWD~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 17:28:52
+Log Details  http://localhost:51512/Index.aspx Method Name: Get_Start_insert_lead. log Message:test21~test~karthick@rcktechiees.com~12344~2011~FERRARI~599~343~445~PREVIOUS CUSTOMER~~::1~http://localhost:51512/Index.aspx~http://localhost:51512/Index.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 18:12:15
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test6~test~karthick@rcktechiees.com~12344~2009~FORD~EDGE FWD~4444~223~WEBSITE~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~MIAMI~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 18:19:50
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2017~DODGE~GRAND CARAVAN FFV~1234565~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/04/2018 18:27:33
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:testset3~test3~karthick@rcktechiees.com~12344~2018~bmw~001~1234565~445~WFLA 102.5FM News~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 10:46:16
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2010~FORD~EDGE AWD~4444~223~SIGNAGE~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 11:33:42
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2013~bmw~001~4444~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 11:51:44
+Log Details  http://localhost:65382/miami.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~FORD~ESCAPE 2WD V6~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:65382/miami.aspx~http://localhost:65382/miami.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:01:17
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2008~FERRARI~430~343~223~WOMX 105.1 FM MIX~~::1~http://localhost:65382/Sell_your_car_truck_suv.aspx~http://localhost:65382/Sell_your_car_truck_suv.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:01:17
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Wepaythemax_LeadUpdate_insert' expects parameter '@type', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\04.06.2018_wepaythemax\App_Code\scheduled_email.cs:line 436
+ClientConnectionId:ab056578-ff5e-450c-9dc8-b258ac52d0c0
+Error Number:201,State:4,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:04:04
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~DODGE~CHARGER 2WD V8~1234565~223~Pride Orlando~~::1~http://localhost:65382/Sell_your_car_truck_suv.aspx~http://localhost:65382/Sell_your_car_truck_suv.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:04:04
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Wepaythemax_LeadUpdate_insert' expects parameter '@type', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\04.06.2018_wepaythemax\App_Code\scheduled_email.cs:line 436
+ClientConnectionId:ab056578-ff5e-450c-9dc8-b258ac52d0c0
+Error Number:201,State:4,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:06:23
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~FERRARI~430~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:65382/Sell_your_car_truck_suv.aspx~http://localhost:65382/Sell_your_car_truck_suv.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:07:25
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Wepaythemax_LeadUpdate_insert' expects parameter '@type', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\04.06.2018_wepaythemax\App_Code\scheduled_email.cs:line 436
+ClientConnectionId:ab056578-ff5e-450c-9dc8-b258ac52d0c0
+Error Number:201,State:4,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:08:08
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2010~FREIGHTLINER~SPRINTER 2500 V6 TDSL~343~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Sell_your_car_truck_suv.aspx~http://localhost:65382/Sell_your_car_truck_suv.aspx~~SANFORD~~~627811
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:11:01
+Log Details  http://localhost:65382/Sell_your_motorcycle.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2009~DUCATI~1198~1234565~445~WFLA 102.5FM News~~::1~http://localhost:65382/Sell_your_motorcycle.aspx~http://localhost:65382/Sell_your_motorcycle.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:13:18
+Log Details  http://localhost:65382/Sell-your-boat.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2018~bmw~001~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:65382/Sell-your-boat.aspx~http://localhost:65382/Sell-your-boat.aspx~~SANFORD~~~627811
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:14:20
+Log Details  http://localhost:65382/Sell-your-recreational-vehicle.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2013~bbe~klm~343~44~Pride Orlando~~::1~http://localhost:65382/Sell-your-recreational-vehicle.aspx~http://localhost:65382/Sell-your-recreational-vehicle.aspx~~SANFORD~~~627811
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:17:12
+Log Details  http://localhost:65382/Sell_your_commercial_vehicle.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2008~GMC~2500HD SIERRA PICKUP 4WD V8~343~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Sell_your_commercial_vehicle.aspx~http://localhost:65382/Sell_your_commercial_vehicle.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:19:38
+Log Details  http://localhost:65382/miami.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2008~FERRARI~430~4444~44~REFERRAL/FRIEND~~::1~http://localhost:65382/miami.aspx~http://localhost:65382/miami.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:21:00
+Log Details  http://localhost:65382/miami.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2014~fourT~four~343~223~SIGNAGE~~::1~http://localhost:65382/miami.aspx~http://localhost:65382/miami.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:22:10
+Log Details  http://localhost:65382/Fort_lauderdale.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2008~HONDA~SHADOW SPIRIT~343~223~PREVIOUS CUSTOMER~~::1~http://localhost:65382/Fort_lauderdale.aspx~http://localhost:65382/Fort_lauderdale.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:23:30
+Log Details  http://localhost:65382/Fort_lauderdale.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2013~fourT~klm~343~223~test~~::1~http://localhost:65382/Fort_lauderdale.aspx~http://localhost:65382/Fort_lauderdale.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:24:58
+Log Details  http://localhost:65382/West_palm_beach.aspx Method Name: Get_Start_insert_lead. log Message:test~Marimuthu~test@mail.com~7418484667~2008~FORD~E450 CHASSIS V10~343~445~REFERRAL/FRIEND~~::1~http://localhost:65382/West_palm_beach.aspx~http://localhost:65382/West_palm_beach.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:26:30
+Log Details  http://localhost:65382/West_palm_beach.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2014~333~001~343~223~SIGNAGE~~::1~http://localhost:65382/West_palm_beach.aspx~http://localhost:65382/West_palm_beach.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:28:09
+Log Details  http://localhost:65382/Treasure_coast.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2008~HARLEY DAVIDSON~XL883C~343~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Treasure_coast.aspx~http://localhost:65382/Treasure_coast.aspx~~MELBOURNE~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:30:19
+Log Details  http://localhost:65382/Melbourne.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2018~bmw~klm~1234565~223~WOMX 105.1 FM MIX~~::1~http://localhost:65382/Melbourne.aspx~http://localhost:65382/Melbourne.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:32:25
+Log Details  http://localhost:65382/Orlando.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2007~GMC~3500 SIERRA PICKUP 2WD V8~1234565~445~WEBSITE~~::1~http://localhost:65382/Orlando.aspx~http://localhost:65382/Orlando.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:34:32
+Log Details  http://localhost:65382/Daytona.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2013~bmw~klm~343~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Daytona.aspx~http://localhost:65382/Daytona.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:37:31
+Log Details  http://localhost:65382/Sell-my-car-sanford.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2009~HARLEY DAVIDSON~STREET GLIDE FLH~1234565~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Sell-my-car-sanford.aspx~http://localhost:65382/Sell-my-car-sanford.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:39:40
+Log Details  http://localhost:65382/Selling-a-car-cutler-bay.aspx Method Name: Get_Start_insert_lead. log Message:test~test4~test@mail.com~4321~2013~fourT~klm~343~223~Pride Orlando~~::1~http://localhost:65382/Selling-a-car-cutler-bay.aspx~http://localhost:65382/Selling-a-car-cutler-bay.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:41:33
+Log Details  http://localhost:65382/How_it_works.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2123~BMW~200~4444~223~WCFB 107.3FM Solo Exitos~~::1~http://localhost:65382/How_it_works.aspx~http://localhost:65382/How_it_works.aspx~~SANFORD~~~627811
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:42:54
+Log Details  http://localhost:65382/Whats-my-car-worth.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2010~YAMAHA~FJR 1300 A~4444~223~WNDB 93.5FM News Talk~~::1~http://localhost:65382/Whats-my-car-worth.aspx~http://localhost:65382/Whats-my-car-worth.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:44:48
+Log Details  http://localhost:65382/Whats-my-car-worth.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2013~bmw~klm~343~223~Pride Orlando~~::1~http://localhost:65382/Whats-my-car-worth.aspx~http://localhost:65382/Whats-my-car-worth.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:46:41
+Log Details  http://localhost:65382/Faq.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2018~bmw~001~1234565~445~REFERRAL/FRIEND~~::1~http://localhost:65382/Faq.aspx~http://localhost:65382/Faq.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:49:50
+Log Details  http://localhost:65382/Testimonials.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2016~AHA MOTORSPORTS~CZD180Y12~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:65382/Testimonials.aspx~http://localhost:65382/Testimonials.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:49:50
+Log Details  http://localhost:65382/Testimonials.aspx Method Name: insert_error_db. log Message:System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Wepaythemax_LeadUpdate_insert' expects parameter '@type', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at scheduled_email.Update_lead(String fname, String lname, String email, String contact_no, String year, String make, String model, String vin, String milege, String source, String from_url, String referal, String source_visite, String ip, String lead_type, String location, String zip, String city, String address, String type, String leadId) in c:\SVN\04.06.2018_wepaythemax\App_Code\scheduled_email.cs:line 436
+ClientConnectionId:9e2d03fe-0f1a-455b-95bd-a21aec0974eb
+Error Number:201,State:4,Class:16
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:52:35
+Log Details  http://localhost:65382/Sell_your_car_truck_suv.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2010~FORD~E350 ECONOLINE V8 FFV~343~223~SIGNAGE~~::1~http://localhost:65382/Sell_your_car_truck_suv.aspx~http://localhost:65382/Sell_your_car_truck_suv.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:54:56
+Log Details  http://localhost:65382/Sell_your_motorcycle.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~3456789~2010~YAMAHA~FJR 1300 A~4444~223~Pride Orlando~~::1~http://localhost:65382/Sell_your_motorcycle.aspx~http://localhost:65382/Sell_your_motorcycle.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:56:51
+Log Details  http://localhost:65382/Testimonials.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~4321~--SELECT YEAR--~~~1234565~223~Pride Orlando~~::1~http://localhost:65382/Testimonials.aspx~http://localhost:65382/Testimonials.aspx~~MELBOURNE~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 12:58:05
+Log Details  http://localhost:65382/Contact.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2015~AHA MOTORSPORTS~CZD700ST~222~22~TWITTER~~::1~http://localhost:65382/Contact.aspx~http://localhost:65382/Contact.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:01:47
+Log Details  http://localhost:65382/Contact.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2013~bbe~klm~343~44~SIGNAGE~~::1~http://localhost:65382/Contact.aspx~http://localhost:65382/Contact.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:03:18
+Log Details  http://localhost:65382/Espanol.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~4321~2013~bbe~klm~4444~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Espanol.aspx~http://localhost:65382/Espanol.aspx~~MELBOURNE~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:05:19
+Log Details  http://localhost:65382/Contact.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2013~bbe~klm~343~223~Pride Orlando~~::1~http://localhost:65382/Contact.aspx~http://localhost:65382/Contact.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:13:58
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:testsss~testas~test@mail.com~12344~2010~BMW~F800 GS~343~223~WEBSITE~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:34:57
+Log Details  http://localhost:65382/Treasure_coast.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2013~bbe~klm~343~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Treasure_coast.aspx~http://localhost:65382/Treasure_coast.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:38:15
+Log Details  http://localhost:65382/Testimonials.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~4321~--SELECT YEAR--~~~4444~44~REFERRAL/FRIEND~~::1~http://localhost:65382/Testimonials.aspx~http://localhost:65382/Testimonials.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:51:09
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2018~bmw~klm~4444~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 13:55:40
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2011~ASTON MARTIN~DBS~343~445~PREVIOUS CUSTOMER~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 14:01:24
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~karthick@rcktechiees.com~12344~2017~FIAT~500X FWD~343~445~WEBSITE~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~SANFORD~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 14:03:14
+Log Details  http://localhost:65382/Thank_you.aspx Method Name: Get_Start_insert_lead. log Message:testTnk~test~test@mail.com~12344~2013~bbe~four~4444~44~The Beat 104.5FM Hip Hop~~::1~http://localhost:65382/Thank_you.aspx~http://localhost:65382/Thank_you.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 14:06:07
+Log Details  http://localhost:65382/Thank_you.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2015~APT POWERSPOR~MBX25~1234565~445~PREVIOUS CUSTOMER~~::1~http://localhost:65382/Thank_you.aspx~http://localhost:65382/Thank_you.aspx~~DAYTONA~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 14:59:11
+Log Details  http://localhost:65382/Index.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~12344~2018~bmw~001~1234565~223~Pride Orlando~~::1~http://localhost:65382/Index.aspx~http://localhost:65382/Index.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 15:01:58
+Log Details  http://localhost:65382/Thank_you.aspx Method Name: Get_Start_insert_lead. log Message:test~test~test@mail.com~3456789~2014~CADILLAC~CTS 2WD V6 FFV~4444~223~REFERRAL/FRIEND~~::1~http://localhost:65382/Thank_you.aspx~http://localhost:65382/Thank_you.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________
+___________________________________________________START_______________________________________________
+
+Log Entry : 
+06/05/2018 15:05:41
+Log Details  http://localhost:65382/Thank_you.aspx Method Name: Get_Start_insert_lead. log Message:test~test4~test@mail.com~3456789~2013~BASHAN MOTORCYCLE~CK250S-11~4444~44~REFERRAL/FRIEND~~::1~http://localhost:65382/Thank_you.aspx~http://localhost:65382/Thank_you.aspx~~ORLANDO~~~12344
+____________________________________________________END________________________________________________

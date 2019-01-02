@@ -1,0 +1,23 @@
+@font-face {
+    font-family: icomoon2;
+    src: url(../icomoon-font-2/icomoon2.eot);
+    src: url(../icomoon-font-2/icomoon2.eot) format('embedded-opentype'),url(../icomoon-font-2/icomoon2.ttf?7t2pwt) format('truetype'),url(../icomoon-font-2/icomoon2.woff?7t2pwt) format('woff'),url(../icomoon-font-2/icomoon2.svg?7t2pwt#icomoon) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" icon2-"], [class^=icon2-] {
+    font-family: icomoon2 !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon2-cutlerbay:before {
+    content: "\e900"
+}

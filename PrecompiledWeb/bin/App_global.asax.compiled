@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/PrecompiledWeb/global.asax" hash="ffffffffd8957cfa" filehash="bc98b3130ea" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/PrecompiledWeb/global.asax" />
+    </filedeps>
+</preserve>

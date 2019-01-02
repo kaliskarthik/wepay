@@ -1,0 +1,98 @@
+ <div id="more-contents" class="container-fluid" style="background:#f4f4f4;display:none;">    
+<div class="container">
+<div class="miami-content">
+    <h4 class="" style="text-align:center;margin-top: 24px;">Articles</h4>    
+</div>
+ <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://placehold.it/600x400/EEE">
+              <div class="caption">
+                <h4>miami car trade in</h4>
+                <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+                <a data-toggle="modal" data-target=".bs-example-modal-lg">Read More...</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align:center;">Miami Car Trade In</h4>
+        </div>
+        <div class="modal-body">
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal -->
+        
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://placehold.it/600x400/EEE">
+              <div class="caption">
+                <h4>miami car trade in</h4>
+                 <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+                 <a href="">Read More...</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Modal -->
+  <div class="modal fade" id="Div1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align:center;">Miami Car Trade In</h4>
+        </div>
+        <div class="modal-body">
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+          <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal -->
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://placehold.it/600x400/EEE">
+              <div class="caption">
+                <h4>miami car trade in</h4>
+                <p>Art one as any floridion knows,summer,while fun,can be killer on your car for many reasons,not least of which is the flaring sun.</p>
+                <a href="">Read More...</a>
+            </div>
+          </div>
+        </div>    
+  </div><!--/row-->  
+</div>
+  </div> 

@@ -1,0 +1,73 @@
+8
+
+dir
+63
+https://192.168.1.186/svn/LIVEWEPAYTHEMAX/branches/01.06.2018_wepaymax_NxtLead/fontello
+https://192.168.1.186/svn/LIVEWEPAYTHEMAX
+
+
+
+2018-06-04T12:18:53.831460Z
+60
+raju
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f7a187b2-67b7-f549-86bd-655fcee16ee8
+
+README.txt
+file
+
+
+
+
+
+eebbe0b838af5f76d3936f1bbf3de119
+2018-06-04T12:18:53.831460Z
+60
+raju
+has-props
+
+config.json
+file
+
+
+
+
+
+34f2f5eb89859fa2716eb4716df94723
+2018-06-04T12:18:53.831460Z
+60
+raju
+has-props
+
+css
+dir
+
+demo.html
+file
+
+
+
+
+
+c7bcd5039719dd968481993c6f5720a4
+2018-06-04T12:18:53.831460Z
+60
+raju
+has-props
+
+font
+dir
+
