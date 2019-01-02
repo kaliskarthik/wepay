@@ -465,7 +465,7 @@
 						</div>
 					</div>
                                                     <div class="col-md-12 col-xs-12 set_appraisal" style="margin-top:5%;margin-bottom: 15px;" >
-        <h3>SET YOUR APPRAISAL&nbsp;&nbsp;&nbsp;&nbsp;
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;
         <span style="color: #e74c3c;">
         <span class="icon-mobile" style="color: #e74c3c;font-size: 20px;"></span>&nbsp;&nbsp;
         <a href="tel:8884288381" style="color:#d23a2e;"><span><a href="tel:8884288381" style="color:#d23a2e;"><span>(888) 428-8381</span></a></span></a>
